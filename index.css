@@ -1,0 +1,739 @@
+*{
+    margin: 0;
+    padding: 0;
+/* border: 1px solid #000; */
+}
+.shadowdiv{
+    background-color: rgba(0, 0, 0, 0.726);
+    height: 100vh;
+    width: 100%;
+}
+.banner{
+    position: relative;
+    height: 100vh;
+    width: 100%;
+animation: banner 15s linear infinite;
+}
+@keyframes banner {
+    0%{  background-image: url(/Images/header-bg.jpg);
+        background-size: cover;
+        background-position: center;
+    }
+    33.5%{
+        background-image: url(/Images/header-bg.jpg);
+        background-size: cover;
+        background-position: center;
+
+    }
+    35%{ 
+        background-image: url(/Images/header-bg2.jpg);
+        background-size: cover;
+    background-position: center;
+}     
+63.5%{
+    background-image: url(/Images/header-bg2.jpg);
+        background-size: cover;
+    background-position: center;
+}
+65%{
+    background-image: url(/Images/header-bg3.jpg);
+    background-size: cover;
+background-position: center;
+}
+    100%{ 
+        background-image: url(/Images/header-bg3.jpg);
+        background-size: cover;
+    background-position: center;
+}
+}
+.navbar{
+    height: 100px;
+    width: 100%;
+    box-sizing: border-box;
+    padding: 2% 9%;
+}
+.logo{
+    float: left;
+    width: 8%;
+}
+.bannerul{
+    float: right;
+    color: white;
+font-family: 'Montserrat', sans-serif;
+
+}
+.bannerLI{
+    list-style: none;
+    display: inline;
+margin-left: 25px;
+font-weight: 550;
+}
+.textbox{
+    width: 50%;
+    margin:auto;
+}
+.welcome{
+font-family: 'Montserrat', sans-serif;
+font-size: 25px;
+color: white;
+text-align: center;
+font-weight: 600;
+margin-top: 70px;
+}
+.headings{
+    position: absolute;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 55px;
+    color: white;
+/* margin: 20px 10%; */
+font-weight: 700; 
+opacity: 0; 
+}
+
+.A1{
+animation: A1 15s linear infinite;
+margin: 20px 10%;
+
+}.A2{
+animation: A2 15s linear infinite;
+margin: 20px 6%;
+}.A3{
+animation: A3 15s linear infinite;
+margin: 20px 5%;
+}
+@keyframes A1 {
+    0%{opacity: 1;}
+    30%{opacity: 1;}
+    33%{opacity: 0;}
+    66%{opacity: 0}
+    100%{opacity: 0}
+}
+@keyframes A2 {
+    0%{opacity: 0;}
+    30%{opacity: 0;}
+    33%{opacity: 1;}
+    63%{opacity: 1;}
+    66%{opacity: 0}
+    100%{opacity: 0}
+}
+@keyframes A3 {
+    0%{opacity: 0;}
+    30%{opacity: 0;}
+    33%{opacity: 0;}
+    63%{opacity: 0;}
+    66%{opacity: 1}
+    100%{opacity: 1}
+}
+
+
+
+.herop{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    color: rgba(255, 255, 255, 0.712);   
+    width: 74%;
+    text-align: center;
+    margin:auto;
+    margin-top: 15%;
+    line-height: 29px;
+    animation: heading 15s linear infinite;
+}
+.arrowicon{
+    color: white;
+font-size: 35px;
+margin: 0 45%;
+margin-top: 5%;
+animation: arrow 1s ease-out infinite;
+}
+@keyframes arrow {
+    0%{margin-top: 8%;}
+    20%{margin-top: 5%;}
+    30%{margin-top: 8%;}
+    60%{margin-top: 6%;}
+    100%{margin-top: 8%;}
+}
+
+.herobtn{
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+    width: 30%;
+    border-radius: 30px;
+    color: white;
+    border: 2px dotted white;
+    background-color: transparent;
+margin:35px 33%;
+transition: 1s;
+
+}
+.herobtn:hover{
+    background-color: white;
+    color: black;
+    border: 2px dotted #000;
+}
+
+/* <!-- ------------------------------about me ------------- --> */
+.aboutme{
+    height: 90vh;
+width: 100%;
+
+
+}
+.leftbox{
+    height: 400px;
+    width: 40%;
+float: left;
+}
+#leftbox{
+    background-image: url(/Images/about.jpg);
+background-position: center;
+background-size: cover;
+box-shadow: 10px 0px 20px 1px;
+margin-top: 10%;
+margin-left: 10%;
+filter: brightness(2);
+}
+#rightbox{
+    margin-top: 10%;
+box-shadow: -10px 0px 20px 0px;
+border: 3px solid #5f1910;
+
+    margin-left: 1.5%;
+}
+.abouth{
+    font: 35px;
+    font-weight: 900;
+    font-family: 'Montserrat', sans-serif;
+text-align: center;
+}
+.abouth span{
+    font-size: 32px;
+    font-family: 'Montserrat', sans-serif;
+text-align: center;
+font-weight: 500;
+}
+.contentp1{
+    font-family: 'Montserrat', sans-serif;
+text-align: center;
+font-size: 24px;
+    font-weight: 600; 
+    margin-top: 4%; 
+}
+.contentp1 span{
+    color: #e65f78;
+}
+.contentp2{
+    color: #6c757d;
+text-align: center;
+font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    font-size: 15px;
+    margin: 4% 0px;
+
+}
+.abouticons{
+font-size: 30px;
+text-align: center;
+}
+.iconsabout{
+    margin-left: 1%;
+}
+/* <!-- -------------------------services---------------------- --> */
+.services{
+   height: 160vh;
+   width: 100%; 
+   box-sizing: border-box;
+   padding: 1px;
+   background-color: #f8f9fa;
+}
+.contentbox{
+    text-align: center;
+height: 200px;
+/* border: 1px solid #000; */
+font-family: 'Montserrat', sans-serif;
+width: 50%;
+margin: auto;
+
+
+}
+.servicesh{
+    font-size: 35px;
+        margin-top: 10%; 
+    }
+.servicesh span{
+    font-weight: 500; 
+
+}
+.servicesp{
+    color: #6c757d;
+    font-family: 'Montserrat', sans-serif;
+        width: 77%;
+        font-size: 16px;
+        margin: 4% auto;
+        text-align: center;
+}
+.bigbox{
+    height: 660px;
+    width:85%;
+    margin-left: 8%;
+    box-shadow: 5px 0px 20px 1px;
+border: 2px solid rgba(0, 0, 0, 0.651);
+border-radius: 10px;
+}
+.boxs{
+    height: 300px;
+    width: calc(33% - 2.5%);
+    border-radius: 4px;
+    border: 2px solid #5f191065;
+    float: left;
+    text-align: center;
+    margin: 1.16%;
+    background-color: rgba(245, 222, 179, 0.116);
+    
+}
+.boxs:hover .boxline{
+    width: 30%;
+}
+.boxh{
+    font-family: 'Montserrat', sans-serif;
+font-weight: 900;
+}
+.boxline{
+    background-color:#e65f78; ;
+    width: 10%;
+    height: 2px;
+    margin: 5% auto;
+    transition: 1s;
+}
+
+.boxp{
+    color: #6c757d;
+    font-family: 'Montserrat', sans-serif;
+        width: 92%;
+        text-align: center;
+        font-size: 15px;
+        margin: auto;
+}
+/* <!-- -------------------------------Freelancer------------------------------ --> */
+.freelancer{
+    height: 50vh;
+    width: 100%;
+border: 2px solid #5f191065;
+}
+.freeh{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    margin-top: 7%;
+    font-size: 32px;
+}
+.Hirebtn{
+    height: 60px;
+    width: 150px;
+    background-color: #e65f7859;
+    color:#ff0231ec ;
+    font-size: 22px;
+    border-radius: 5px;
+border: 1px solid #e65f78;
+margin: 2% 45%;
+transition: .5s;
+}
+.Hirebtn:hover{
+    background-color: #dd3857;
+color: white;
+
+}
+
+
+/* <!--          our client              --> */
+.client{
+    box-sizing: border-box;
+    padding: 1px;
+height: 120vh;
+width: 100%;
+/* border: 1px solid #000; */
+background-color: #f8f9fa;
+
+}
+
+.slideboxcontent{
+    float: left;
+    height: 100%;
+    /* border: 1px solid #000; */
+    width: 33.27%;
+    /* background-color: antiquewhite; */
+}
+.slideboxchild{
+    height: 100%;
+    width: 300%;
+    /* border: 3px solid #000; */
+background-color: #5f1910;
+    /* animation: client 10s ease-in-out infinite; */
+    animation-delay: 6s;
+    transition: all 2s ease-in-out ;
+}
+@keyframes client {
+   0%{margin-left: 0;}
+   33%{margin-left: -100%;}
+   66%{margin-left: -100%;}
+    96%{margin-left: -200%;}
+    100%{margin-left: -200%;}
+
+}
+.slideboxparent{
+    height: 400px;
+    width: 80%;
+    /* border: 1px solid #000; */
+    box-shadow: 5px 0px 20px 1px;
+    border: 2px solid rgba(0, 0, 0, 0.603);
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+}
+.btn1{
+    position: absolute;
+    left: 48%;
+    top: 525%;
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.btn2{
+    position: absolute;
+    left: 50%;
+    top: 525%;
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+.btn31{
+    position: absolute;
+    left: 52%;
+    top: 525%;
+    background-color: red;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+}
+#btn1,#btn2,#btn31{
+    display: none;
+}
+#btn1:checked ~ .slideboxparent .slideboxchild{
+    margin-left: 0;
+
+}
+#btn2:checked ~ .slideboxparent .slideboxchild{
+    margin-left: -100%;
+
+}
+#btn31:checked ~ .slideboxparent .slideboxchild{
+    margin-left: -200%;
+
+}
+
+.slideimg1{
+    margin: 2% auto;
+    display: block;
+}
+.slideimg2{
+    margin: 2% auto;
+    display: block;
+    border-radius: 50px;
+    box-shadow: 1px 0px 7px 1px;
+    border: 2px solid #5f191065;
+
+}
+#slideh{
+    font-style: italic;
+    line-height: 26px;
+}
+.slidep span{
+    font-family: 'Montserrat', sans-serif;
+text-align: center;
+font-weight: 900;
+color: #000;
+}
+/* <!----------------------------------- Our Works ----------------------------> */
+.ourwork{
+    box-sizing: border-box;
+    padding: 1px;
+    height: 150vh;
+    width: 100%;
+    /* background-color: antiquewhite; */
+}
+.headingline{
+    height: 60px;
+    width: 100%;
+    border: 1px solid #000;
+
+
+}
+.lineul{
+    float: center;
+    color: #000;
+font-family: 'Montserrat', sans-serif;
+margin-left: 30%;
+}
+.lineli{
+    position: relative;
+    margin: 0px 20px;
+    list-style: none;
+    display: inline;
+margin-left: 14px;
+font-weight: 550;
+z-index: 4;
+}
+.lineli::before{
+    content: "";
+    position: absolute;
+height: 30px;
+width: 60px;
+border-radius: 30px;
+background-color: rgba(0, 0, 0, 0.322);
+opacity: 0;
+transition: 1s;
+}
+.lineli:hover::before{
+    opacity: 1;
+
+}
+.lineli:hover{
+    color: white;
+
+}
+.bigboxs2{
+    margin: auto;
+    height: 550px;
+    width: 85%;
+    /* border: 1px solid #000; */
+}
+.box2{
+    border-radius: 7px;
+    float: left;
+    height: 230px;
+    width: calc( 33% - 3% );
+    /* border: 1px solid #000; */
+    position: relative;
+margin: 1.5%;
+}
+.box2img{
+    border-radius: 7px;
+    height: 100%;
+    width: 100%;
+}
+.box2::before{
+    position: absolute;
+    border-radius: 7px;
+    content: "";
+    height: 100%;
+    width: 100%;
+    transition: .5s;
+
+}
+.box2:hover::before{
+background-color: rgba(0, 0, 0, 0.651);
+    opacity: 1;
+}
+.contentp3{
+    font-size: 14px;
+}
+.contentp4{
+font-size: 20px;
+margin-top: 10px;
+}
+.contentbox2{
+    position: absolute;
+    z-index: 5;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    width: 50%;
+    color: wheat;
+    margin: 4% 23%;
+    opacity: 0;
+    font-weight: 550;
+    transition: .3s;
+}
+.box2:hover .contentbox2{
+    margin-top: -140px;
+    z-index: 3;
+    opacity: 1;
+    color: white;
+
+}
+/* ---------------contact us----------------- */
+.contact{
+    height: 140vh;
+    width: 100%;
+    padding: 1px;
+    box-sizing: border-box;
+    background-color: #f8f9fa;
+    /* border: 1px solid #000;   */
+}
+.contentbox5{
+    height: 100px;
+    width: 80%;
+    /* border: 1px solid #000; */
+margin: auto;
+}
+.contentdiv{
+    width: 33%;
+    text-align: center;
+    display: inline-block;
+}
+
+
+.iconcontent1{
+    font-size: 40px;
+    color: #e65f78;
+    
+}
+.iconh{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+
+}
+.iconp{
+    color: #6c757d;
+    font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+}
+.inputbox{
+    height: 400px;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    /* border: 1px solid #000; */
+}
+.inputcontact{
+height: 50px;
+width: calc(49% - 3%);
+margin: 1.5%;
+font-size: 16px;
+}
+.s1{
+    width: 95.5%;
+}
+.message{
+    height: 150px;
+    width: 95.5%;
+    margin: 1.5%;
+    font-size: 16px;
+}
+
+.inputbtn3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    height: 50px;
+    width: 18%;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid #e65f78;
+    background-color: #e65f78;
+transition: 1s;
+margin-right: 30px;
+float: right;
+}
+
+.inputbox .inputcontact::placeholder{
+    box-sizing: border-box;
+    padding: 3%;
+
+}
+/* <!-- -------------------------------footer sec----------------------------- --> */
+.footer{
+    height: 40vh;
+    width: 100%;
+    background-color: #212121;
+text-align: center;
+
+}
+.footerbox{
+height: 150px;
+/* border: 1px solid #000; */
+}
+.rounddiv{
+display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color:#313131;
+    margin: 6% .3%;
+
+}
+.iconsfooter{
+padding: auto;
+color: #ababab;
+font-size: 20px;
+box-sizing: border-box;
+padding: 30%;
+}
+.footerp{
+    color: #ababab;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+}
+/* -------------------------------------- */
+.fixed{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #dd3857;
+}
+.a2{
+    margin-left: 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
